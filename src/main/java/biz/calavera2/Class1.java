@@ -1,4 +1,4 @@
-package biz.calavera;
+package biz.calavera2;
 
 
 public class Class1 {

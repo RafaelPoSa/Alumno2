@@ -3,8 +3,8 @@
 	<property name="buildName"	value="CalaveraAlumno2"/>
 	<property name="message" 	value="built and deployed to Tomcat."/>
 	<property name="testsOK" 	value="tested OK"/>
-	<property name="src" 		value="./src/main/java/biz/calavera"/>
-	<property name="test" 		value="./src/test/java/biz/calavera"/>
+	<property name="src" 		value="./src/main/java/biz/calavera2"/>
+	<property name="test" 		value="./src/test/java/biz/calavera2"/>
 	<property name="config"		value="./src/main/config"/>
 	<property name="output" 	value="./target"/>
 	<property name="results" 	value="./target"/>
@@ -85,7 +85,7 @@
 				<pathelement location="${output}"/>
 			</classpath>
 
-		    	<test name="biz.calavera.TestClass1" haltonfailure="yes" todir="${results}" outfile="result">
+		    	<test name="biz.calavera2.TestClass1" haltonfailure="yes" todir="${results}" outfile="result">
 				<formatter type="xml" />
 				<formatter type="plain" />
 			</test>
@@ -97,7 +97,7 @@
 		<jar destfile="${output}/${buildName}.jar" basedir="${output}">
 			<include name="**/*.class"/>
 			<manifest>
-			  <attribute name="Alumno2" value="biz.calavera.Alumno2"/>
+			  <attribute name="Alumno2" value="biz.calavera2.Alumno2"/>
 			</manifest>
 		</jar>
 		<copy todir="${output}">

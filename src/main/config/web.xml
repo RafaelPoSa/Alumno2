@@ -31,7 +31,7 @@
 
     <servlet>
         <servlet-name>Alumno2</servlet-name>
-        <servlet-class>biz.calavera.Alumno2</servlet-class>
+        <servlet-class>biz.calavera2.Alumno2</servlet-class>
 
     </servlet>
 

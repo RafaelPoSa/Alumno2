@@ -22,16 +22,16 @@
   version="3.1"
   metadata-complete="true">
 
-  <display-name>Welcome to Tomcat</display-name>
+  <display-name>Welcome to Alumno2</display-name>
   <description>
-     Welcome to Tomcat
+     Welcome to Alumno2
   </description>
 
 
 
     <servlet>
         <servlet-name>Alumno2</servlet-name>
-        <servlet-class>biz.calavera.Alumno2</servlet-class>
+        <servlet-class>biz.calavera2.Alumno2</servlet-class>
 
     </servlet>
 
