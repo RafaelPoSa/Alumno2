@@ -6,7 +6,7 @@ import java.io.*;
 import javax.servlet.*;
 import javax.servlet.http.*;
 
-public class MainServlet extends HttpServlet {
+public class Alumno2 extends HttpServlet {
 	// Import required java libraries
 
 	  private String message;
@@ -15,7 +15,7 @@ public class MainServlet extends HttpServlet {
 	  {
 	      // Edit this message, save the file, and rebuild with Ant
               // to see it reflected on the Web page at http://localhost:8081/MainServlet
-	      message = "This is a skeleton application-- to explore the end to end Calavera delivery framework.";
+	      message = "Este es el Team 2 dandole al Jenkins";
 	  }
 
 	  public void doGet(HttpServletRequest request,

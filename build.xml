@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <project default="main">
-	<property name="buildName"	value="CalaveraMain"/>
+	<property name="buildName"	value="CalaveraAlumno2"/>
 	<property name="message" 	value="built and deployed to Tomcat."/>
 	<property name="testsOK" 	value="tested OK"/>
 	<property name="src" 		value="./src/main/java/biz/calavera"/>
@@ -97,7 +97,7 @@
 		<jar destfile="${output}/${buildName}.jar" basedir="${output}">
 			<include name="**/*.class"/>
 			<manifest>
-			  <attribute name="MainServlet" value="biz.calavera.MainServlet"/>
+			  <attribute name="Alumno2" value="biz.calavera.Alumno2"/>
 			</manifest>
 		</jar>
 		<copy todir="${output}">
