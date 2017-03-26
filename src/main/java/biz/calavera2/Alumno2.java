@@ -15,7 +15,7 @@ public class Alumno2 extends HttpServlet {
 	  {
 	      // Edit this message, save the file, and rebuild with Ant
               // to see it reflected on the Web page at http://localhost:8081/MainServlet
-	      message = "Este es el Team 2 dandole al Jenkins";
+	      message = "...y aqui el Team 2 dandole al Jenkins";
 	  }
 
 	  public void doGet(HttpServletRequest request,

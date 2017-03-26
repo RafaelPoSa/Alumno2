@@ -9,9 +9,9 @@
 	<property name="output" 	value="./target"/>
 	<property name="results" 	value="./target"/>
 	<!--property name="jars" 		value="./jars"/-->
-	<property name="classDeploy"	value="/var/lib/tomcat8/webapps/Alumno2/WEB-INF/classes"/>
-	<property name="deploy"		value="/var/lib/tomcat8/webapps/Alumno2/WEB-INF/lib"/>
-	<property name="configDeploy"	value="/var/lib/tomcat8/webapps/Alumno2/WEB-INF/"/>
+	<property name="classDeploy"	value="/var/lib/tomcat8/webapps/Clase/WEB-INF/classes"/>
+	<property name="deploy"		value="/var/lib/tomcat8/webapps/Clase/WEB-INF/lib"/>
+	<property name="configDeploy"	value="/var/lib/tomcat8/webapps/Clase/WEB-INF/"/>
 
 	<property name="junit.fork" value="true"/>
 
@@ -118,11 +118,12 @@
 				<exclude name="**/Test*"/>
 			</fileset>
 		</copy>
-
+<!--
 		<copy todir="${configDeploy}">
 			<fileset dir="${config}">
 				<include name="web.xml"/>
 			</fileset>
 		</copy>
+-->
 	</target>
 </project>
